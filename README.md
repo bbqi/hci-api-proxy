@@ -7,5 +7,8 @@ HCI api请求前需要先获取token，并且token定时更换，无法用zabbix
 - 支持配置
 
 
-
+### 运行
+需要配置，代码中有部分硬编码，需要根据实际调整。
+> go mod init hci-api-proxy
+> go run app.go 
 
