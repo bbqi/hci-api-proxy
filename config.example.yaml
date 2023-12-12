@@ -1,0 +1,14 @@
+api:
+# hci 账户等信息
+  host: 192.168.1.1
+  user: your-hci-user
+  password: your-hci-password
+  timeout: 12h
+  passhash:
+  # 外部api地址 
+  url: 
+
+# 使用docker时，请勿监听localhost端口
+server:
+  addr: :12002
+  check: false
